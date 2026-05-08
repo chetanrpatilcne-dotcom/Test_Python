@@ -25,9 +25,9 @@ def array():
     print("Full access" if access_control == "Admin" else "Limited access" if access_control == "Guest" else "No access")
 
     result5 = input ("Enter your name: ")
-    result2 = result5.count("t")
-    result3 = result5.isdecimal()
-    print(result3)
+    # result2 = result5.count("t")
+    # result3 = result5.isdecimal()
+    print(result5)
 
 
 
